@@ -31,4 +31,13 @@
 - 'mu_tth(h->VV)'
 - 'mu_tth(h->tautau)'
 - 'mu_tth(h->bb)'
-# - 'mu_Zh(h->ZZ)_FCCee'
+  #- 'mu_Zh(h->bb)_FCCee'
+  #- 'mu_Zh(h->cc)_FCCee'
+  # - 'mu_Zh(h->gg)_FCCee' # Has this been measured?
+- 'mu_Zh(h->ZZ)_FCCee'
+  #- 'mu_Zh(h->WW)_FCCee'
+  #- 'mu_Zh(h->tautau)_FCCee'
+  #- 'mu_Zh(h->gammagamma)_FCCee'
+  #- 'mu_Zh(h->Zgamma)_FCCee'
+  #- 'mu_Zh(h->mumu)_FCCee'
+
