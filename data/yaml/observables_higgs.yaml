@@ -41,6 +41,7 @@
 - 'mu_Zh_FCCee240(h->gammagamma)'
 - 'mu_Zh_FCCee240(h->Zgamma)'
 - 'mu_Zh_FCCee240(h->mumu)'
+- 'mu_hnunu_FCCee240(h->bb)'
 - 'mu_Zh_FCCee365(h->bb)'
 - 'mu_Zh_FCCee365(h->cc)'
 - 'mu_Zh_FCCee365(h->gg)' 
