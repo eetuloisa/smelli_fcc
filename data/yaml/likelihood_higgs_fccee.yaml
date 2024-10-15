@@ -1,4 +1,4 @@
 observables: !include_merge_list
-  - observables_higgs.yaml
+  - observables_higgs_fccee.yaml
 include_measurements: !include_merge_list
-  - measurements_higgs.yaml
+  - measurements_higgs_fccee.yaml

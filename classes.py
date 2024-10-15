@@ -75,6 +75,8 @@ class GlobalLikelihood(object):
         'likelihood_lfv.yaml',
         'likelihood_zlfv.yaml',
         'likelihood_higgs.yaml',
+        'likelihood_ewpt_fccee.yaml',
+        'likelihood_higgs_fccee.yaml'
     ]
 
     def __init__(self, eft='SMEFT', basis=None,
@@ -221,7 +223,9 @@ class GlobalLikelihood(object):
             if self.eft != 'SMEFT' and fn in ['likelihood_ewpt.yaml',
                                               'likelihood_eeww.yaml',
                                               'likelihood_zlfv.yaml',
-                                              'likelihood_higgs.yaml',]:
+                                              'likelihood_higgs.yaml',
+                                              'likelihood_ewpt_fccee.yaml',
+                                              'likelihood_higgs_fccee.yaml']:
                 continue
             with open(self._get_yaml_path(fn), 'r') as f:
                 yaml_dict = flavio.io.yaml.load_include(f)
