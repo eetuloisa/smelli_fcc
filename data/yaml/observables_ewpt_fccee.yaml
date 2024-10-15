@@ -26,3 +26,11 @@
 - Rtaumu(W->lnu)
 - A(Z->ss)
 - R_uc
+- sigma(ee->cc)(high_E)
+- sigma(ee->bb)(high_E)
+- AFB(ee->cc)(high_E)
+- AFB(ee->bb)(high_E)
+- sigma(ee->mumu)(high_E)
+- sigma(ee->tautau)(high_E)
+- AFB(ee->mumu)(high_E)
+- AFB(ee->tautau)(high_E)
