@@ -3,34 +3,47 @@
 - R_e
 - R_mu
 - R_tau
-- AFB(Z->ee)
-- AFB(Z->mumu)
-- AFB(Z->tautau)
 - A(Z->ee)
 - A(Z->mumu)
 - A(Z->tautau)
 - R_b
 - R_c
-- AFB(Z->bb)
-- AFB(Z->cc)
 - A(Z->bb)
 - A(Z->cc)
 - m_W
 - GammaW
-- BR(W->enu)
-- BR(W->munu)
-- BR(W->taunu)
-- R(W->cX)
-- Rmue(W->lnu)
-- Rtaue(W->lnu)
-- Rtaumu(W->lnu)
-- A(Z->ss)
-- R_uc
-- sigma(ee->cc)(high_E)
-- sigma(ee->bb)(high_E)
-- AFB(ee->cc)(high_E)
-- AFB(ee->bb)(high_E)
-- sigma(ee->mumu)(high_E)
-- sigma(ee->tautau)(high_E)
-- AFB(ee->mumu)(high_E)
-- AFB(ee->tautau)(high_E)
+  # quarks
+- name: sigma(ee->cc)(high_E)
+  E: 240
+- name: sigma(ee->cc)(high_E)
+  E: 365
+- name: sigma(ee->bb)(high_E)
+  E: 240
+- name: sigma(ee->bb)(high_E)
+  E: 365
+- name: AFB(ee->cc)(high_E)
+  E: 240
+- name: AFB(ee->cc)(high_E)
+  E: 365
+- name: AFB(ee->bb)(high_E)
+  E: 240
+- name: AFB(ee->bb)(high_E)
+  E: 365
+# leptons
+- name: sigma(ee->mumu)(high_E)
+  E: 240
+- name: sigma(ee->mumu)(high_E)
+  E: 365
+- name: sigma(ee->tautau)(high_E)
+  E: 240
+- name: sigma(ee->tautau)(high_E)
+  E: 365
+- name: AFB(ee->mumu)(high_E)
+  E: 240
+- name: AFB(ee->mumu)(high_E)
+  E: 365
+- name: AFB(ee->tautau)(high_E)
+  E: 240
+- name: AFB(ee->tautau)(high_E)
+  E: 365
+
