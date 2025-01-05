@@ -12,6 +12,15 @@
 - A(Z->cc)
 - m_W
 - GammaW
+- BR(W->enu)
+- BR(W->munu)
+- BR(W->taunu)
+- name: R(ee->WW)
+  E: 161
+- name: R(ee->WW)
+  E: 240
+- name: R(ee->WW)
+  E: 365
   # quarks
 - name: sigma(ee->cc)(high_E)
   E: 240
@@ -46,4 +55,11 @@
   E: 240
 - name: AFB(ee->tautau)(high_E)
   E: 365
-
+- name: sigma(ee->ee)(high_E)
+  E: 240
+- name: sigma(ee->ee)(high_E)
+  E: 365
+- name: AFB(ee->ee)(high_E)
+  E: 240
+- name: AFB(ee->ee)(high_E)
+  E: 365
