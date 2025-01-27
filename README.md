@@ -6,7 +6,7 @@ Whilst we eventually hope to incorporate the features as part of the main progra
 2. Make a copy of the 'smelli' directory found in this repository and replace the default smelli installation with the FCC-ee version found here. Do the same with the FCC-ee version of flavio, replacing the default version.
 4. The package can now be used in the same way as the unmodified smelli package. 
 
-For the full set of observables added, see the appendices in arXiv:2501.xxxxx. 
+For the full set of observables added, see the appendices in arXiv:[2501.08321](https://arxiv.org/abs/2501.08321). 
 If new to smelli, please consult the main [smelli page](https://github.com/smelli/smelli) and the references therein.
 
 The observables are contained in two data sets: likelihood_ewpt_fccee.yaml and likelihood_higgs_fccee.yaml. 
